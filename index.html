@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>R.olio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/style.min.css">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+		<link rel="manifest" href="images/favicons/site.webmanifest">
+		<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#7ea104">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__inner-logo">
+					<img class="header__inner-logo__img" src="images/logo-header.svg">
+				</div>
+				<div class="header__inner-menu">
+					
+					
+					<ul class="menu__list">
+						<li><a class="menu__item" href="#oils">Масло</a></li>
+						<li><a class="menu__item" href="#about">О нас</a></li>
+						<li><a class="menu__item" href="#coments">Отзывы</a></li>
+						<li><a class="menu__item" href="#delivery">Оплата и доставка</a></li>
+						<li><a class="menu__item" href="#contancts">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="basket__inner">
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<a class="basket__button" href="#basket"><img class="basket-img" src="images/contents/basket/basket.svg"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="slider__hero">
+		<div class="container">
+			<div class="slider" id="slider">
+
+				<div class="hero__inner__slide hero__inner__slide-green__oil">
+					<div class="hero__inner__wrapper">
+						<div class="hero__inner-oil__img">
+							<img class="oil__img" src="images/contents/oil.svg">
+						</div>
+						<div class="hero__inner-content">
+							<div class="hero__inner-subtitle">Наши продукты</div>
+							<div class="hero__inner-oil__buttonoptions">
+								<div  class="button__forsalat button-options active-link">Для салата</div>
+								<div  class="button__forsalat button-options">Итальянское</div>
+								<div  class="button__forsalat button-options">Для мяса</div>
+								<div  class="button__forsalat button-options">Восточное</div>
+							</div>
+							<div class="hero__inner-oil__img hero__inner-oil__img-adaptive">
+								<img class="oil__img" src="images/contents/oil.svg">
+							</div>
+							<div class="hero__inner-product__title">Масло “Для салата”</div>
+							<p class="hero__inner-product__text">Название говорит само за себя. Это идеальная заправка, которая даже скучной и привычной капусте придаст неповторимый вкус и аромат.</p>
+							<div class="product-button">
+								<a href="#oils" class="button__detals" >Подробнее</a>
+								<button class="button__add-product" id="slideAddButton">В корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="hero__inner__slide hero__inner__slide-italian__oil">
+					<div class="hero__inner__wrapper">
+						<div class="hero__inner-oil__img">
+							<img class="oil__img" src="images/contents/green-oil.svg">
+						</div>
+						<div class="hero__inner-content">
+							<div class="hero__inner-subtitle--green hero__inner-subtitle">Наши продукты</div>
+							<div class="hero__inner-oil__buttonoptions">
+								<div class="button__foritaly button-options">Для салата</div>
+								<div class="button__foritaly button-options active-link">Итальянское</div>
+								<div class="button__foritaly button-options">Для мяса</div>
+								<div class="button__foritaly button-options">Восточное</div>
+							</div>
+							<div class="hero__inner-oil__img hero__inner-oil__img-adaptive">
+								<img class="oil__img" src="images/contents/green-oil.svg">
+							</div>
+							<div class="hero__inner-product__title">Масло “Итальянское”</div>
+							<p class="hero__inner-product__text">Идеальное решение для легкого и быстрого маринада мяса, можно добавить капельку масла и после приготовления.</p>
+							<div class="product-button">
+								<a href="#oils" class="button__detals--green">Подробнее</a>
+								<button class="button__add-product--green">В корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="hero__inner__slide hero__inner__slide-asian__oil">
+					<div class="hero__inner__wrapper">
+						<div class="hero__inner-oil__img">
+							<img class="oil__img" src="images/contents/red-oil.svg">
+						</div>
+						<div class="hero__inner-content">
+							<div class="hero__inner-subtitle--red hero__inner-subtitle">Наши продукты</div>
+							<div class="hero__inner-oil__buttonoptions">
+								<div  class="button__formeat button-options">Для салата</div>
+								<div  class="button__formeat button-options">Итальянское</div>
+								<div  class="button__formeat button-options active-link">Для мяса</div>
+								<div  class="button__formeat button-options">Восточное</div>
+							</div>
+							<div class="hero__inner-oil__img hero__inner-oil__img-adaptive">
+								<img class="oil__img" src="images/contents/red-oil.svg">
+							</div>
+							<div class="hero__inner-product__title">Масло “Для мяса”</div>
+							<p class="hero__inner-product__text">Идеальное решение для легкого и быстрого маринада мяса, можно добавить капельку масла и после приготовления.</p>
+							<div class="product-button">
+								<a href="#oils" class="button__detals--red">Подробнее</a>
+								<button class="button__add-product--red">В корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="hero__inner__slide hero__inner__slide-meat__oil">
+					<div class="hero__inner__wrapper">
+						<div class="hero__inner-oil__img">
+							<img class="oil__img" src="images/contents/orange-oil.svg">
+						</div>
+						<div class="hero__inner-content">
+							<div class="hero__inner-subtitle--orange hero__inner-subtitle">Наши продукты</div>
+							<div class="hero__inner-oil__buttonoptions">
+								<div class="button__forasia button-options">Для салата</div>
+								<div class="button__forasia button-options">Итальянское</div>
+								<div class="button__forasia button-options">Для мяса</div>
+								<div class="button__forasia button-options active-link">Восточное</div>
+							</div>
+							<div class="hero__inner-oil__img hero__inner-oil__img-adaptive">
+								<img class="oil__img" src="images/contents/orange-oil.svg">
+							</div>
+							<div class="hero__inner-product__title">Масло “Восточное”</div>
+							<p class="hero__inner-product__text">Идеальное решение для легкого и быстрого маринада мяса, можно добавить капельку масла и после приготовления.</p>
+							<div class="product-button">
+								<a href="#oils" class="button__detals--orange">Подробнее</a>
+								<button class="button__add-product--orange">В корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="items" id="items">
+		<div class="container">
+			
+			<div class="items__inner" id="oils">
+				<div class="items__inner-title">Масло</div>
+				<div class="items__inner-wrapper items__inner-wrapper__slider">
+
+
+					<div class="item__wrapper item__wrapper-green-oil " data-id="forsalt">
+						<div class="item__wrapper-inner">
+							<div class="images__green-oil">
+								<img class="photo-oil" src="images/contents/item__green-oil.svg" >
+								<img class="photo-oil__basket" src="images/contents/basket/items/green__oil-photo.svg" >
+								<img class="photo-oil__phone" src="images/contents/items__green-circle.svg" >
+							</div>
+
+							<div class="item__wrapper-title">Масло “Для салата”</div>
+							<p class="item__wrapper-about">Название говорит само за себя. Это идеальная заправка, которая даже скучной и привычной капусте придаст неповторимый вкус и аромат.</p>
+							<p class="item__wrapper-about about-details"><span>Состав:</span> оливковое масло холодного отжима, розмарин, тимьян, базилик, орегано, чеснок, смесь из 5 перцев.</p>
+							<div class="item__wrapper-chose">
+								<div class="item__wrapper-chose__quantity">
+									<button class="minus" data-action="minus">-</button>
+									<div class='volue' data-counter>1</div>
+									<button class="plus" data-action="plus">+</button>
+								</div>
+								<div class="item__wrapper-chose__price">
+									<div class="sizes">250мл</div>
+									<div class="price price-green"><span>115</span> грн</div>
+								</div>			
+							</div>
+							<div class="item__wrapper-button">
+								<button class="item__wrapper-basket  item-button item-button__green" data-cart>В корзину</button>
+								<button class="item__wrapper-tg item-button item-button__green">ЗАКАЗАТЬ В ТГ</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item__wrapper item__wrapper__italian-oil" data-id="foritalian">
+						<div class="item__wrapper-inner">
+							<div class="images__italian-oil">
+								<img class="photo-oil" src="images/contents/item__italian-oil.svg" >
+								<img class="photo-oil__basket" src="images/contents/basket/items/green__oil-photo.svg" >
+								<img class="photo-oil__phone" src="images/contents/items__italian-circle.svg" >
+							</div>
+
+							<div class="item__wrapper-title item__wrapper-title__italian">Масло “Итальянское”</div>
+							<p class="item__wrapper-about">Добавит ноток Италии в любое ваше блюдо. Паста, ризотто, пицца, салаты - его везде можно использовать.</p>
+							<p class="item__wrapper-about about-details">Состав: оливковое масло холодного отжима, чеснок, вяленые томаты, базилик, орегано, майоран, смесь перцев.</p>
+							<div class="item__wrapper-chose">
+								<div class="item__wrapper-chose__quantity">
+									<button class="minus" data-action="minus">-</button>
+									<div class='volue volue__italian' data-counter>1</div>
+									<button class="plus"  data-action="plus">+</button>
+								</div>
+								<div class="item__wrapper-chose__price">
+									<div class="sizes">250мл</div>
+									<div class="price price-italian"><span>115</span> грн</div>
+								</div>			
+							</div>
+							<div class="item__wrapper-button">
+								<button class="item__wrapper-basket  item-button item-button__italian" data-cart>В корзину</button>
+								<button class="item__wrapper-tg item-button item-button__italian">ЗАКАЗАТЬ В ТГ</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item__wrapper" data-id="formeat">
+						<div class="item__wrapper-inner">
+							<div class="images__italian-oil">
+								<img class="photo-oil" src="images/contents/item__meat-oil.svg" >
+								<img class="photo-oil__basket" src="images/contents/basket/items/green__oil-photo.svg" >
+								<img class="photo-oil__phone" src="images/contents/items__meat-circle.svg" >
+							</div>
+
+							<div class="item__wrapper-title item__wrapper-title__meat">Масло “Для мяса”</div>
+							<p class="item__wrapper-about">Идеальное решение для легкого и быстрого маринада мяса, можно добавить капельку масла и после приготовления.</p>
+							<p class="item__wrapper-about about-details">Состав: оливковое масло холодного отжима, чеснок, паприку, кориандр, смесь перцев, розмарин, тимьян, перец чили.</p>
+							<div class="item__wrapper-chose">
+								<div class="item__wrapper-chose__quantity">
+									<button class="minus" data-action="minus">-</button>
+									<div class='volue volue__meat' data-counter>1</div>
+									<button class="plus"  data-action="plus">+</button>
+								</div>
+								<div class="item__wrapper-chose__price">
+									<div class="sizes">250мл</div>
+									<div class="price price-meat"><span>115</span> грн</div>
+								</div>			
+							</div>
+							<div class="item__wrapper-button">
+								<button class="item__wrapper-basket  item-button item-button__meat" data-cart>В корзину</button>
+								<button class="item__wrapper-tg item-button item-button__meat">ЗАКАЗАТЬ В ТГ</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="item__wrapper" data-id="forasian">
+						<div class="item__wrapper-inner">
+							<div class="images__italian-oil">
+								<img class="photo-oil" src="images/contents/item__asia-oil.svg" >
+								<img class="photo-oil__basket" src="images/contents/basket/items/green__oil-photo.svg" >
+								<img class="photo-oil__phone" src="images/contents/items__asia-circle.svg" >
+							</div>
+
+							<div class="item__wrapper-title item__wrapper-title__asia">Масло “Восточное”</div>
+							<p class="item__wrapper-about">Oтлично подойдёт для приготовления блюд среднеазиатской кухни,они с этим маслом приобретут традиционные нотки Средней Азии.</p>
+							<p class="item__wrapper-about about-details">Состав: оливковое масло холодного отжима, перец чили, зира, куркума, чеснок, смесь перцев.</p>
+							<div class="item__wrapper-chose">
+								<div class="item__wrapper-chose__quantity">
+									<button class="minus" data-action="minus">-</button>
+									<div class='volue volue__asia' data-counter>1</div>
+									<button class="plus"  data-action="plus">+</button>
+								</div>
+								<div class="item__wrapper-chose__price">
+									<div class="sizes">250мл</div>
+									<div class="price price-asia"><span>115</span> грн</div>
+								</div>			
+							</div>
+							<div class="item__wrapper-button">
+								<button class="item__wrapper-basket  item-button item-button__asia" data-cart>В корзину</button>
+								<button class="item__wrapper-tg item-button item-button__asia">ЗАКАЗАТЬ В ТГ</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="about__inner" >
+				<div class="about__inner-title">О нас</div>
+				<div class="about__inner-about">
+					<img class="about__inner-about__images" src="images/contents/we.jpg" >
+					<div class="about__inner-about-text" >
+						<div class="about__inner-about-title">Кто мы</div>
+						<p class="about__inner-about__details">Мы пара: Таня и Рома и мы создатели пряного оливкового масла R.olio.  <br>Предыстория: <br>Так сложилось в нашей паре, что готовит у нас Рома, он очень увлечен кулинарией и каждый раз придумывает что-то новенькое. <br>На кануне прошлого Нового года, мы готовили подарки нашим друзьям и родственникам. Нам захотелось к подаркам добавить что-то необычное, от себя. <br>И к нам пришла идея, Рома готовил вкуснейшее пряное оливковое масло для своих рецептов, добавлял розмарин, тимьян, чеснок, разные виды перцев...каждый раз получался новый неповторимый вкус <br></p>
+					</div>
+				</div>
+
+				<div class="about__inner-wtd">
+					<div class="about__inner-wtd-text" >
+						<div class="about__inner-wtd-title">Что мы делаем</div>
+						<p class="about__inner-wtd__details">И мы решили сделать такое масло, как добавление к подарку. Надо сказать, что наши близкие оценили презент и просили снова и снова сделать им такое масло.И появилась идея: почему бы не попробовать запустить такое масло в продажу?Рома долго выверял рецепты, я разрабатывала дизайн этикеток и искала поставщиков. И вот мы готовы представить его вам!Мы старались сделать наше масло максимально доступным, при этом не потеряв в качестве. Стоимость бутылки(250мл) - всего 115грн.</p>
+					</div>
+					<img class="about__inner-wtd__images" src="images/contents/do.jpg" >
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="coments" id="coments">
+		<div class="container">
+			<div class="coments__inner">
+				<div class="coments__inner-title">Отзывы</div>
+				<div class="coments__inner-slider">
+					<img src="images/contents/list1.jpg">
+					<img src="images/contents/list2.jpg">
+					<img src="images/contents/list3.jpg">
+					<img src="images/contents/list1.jpg">
+					<img src="images/contents/list2.jpg">
+					<img src="images/contents/list3.jpg">
+					<img src="images/contents/list1.jpg">
+					<img src="images/contents/list2.jpg">
+					<img src="images/contents/list3.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="delivery" id="delivery">
+		<div class="delivery__left-wrapper">
+			<div class="container">
+				<div class="delivery__inner container__delivery__left">
+					<div class="delivery__inner-tabs__left">
+						<div class="delivery__inner-tabs__left-wrapper">
+							<div class="tabs__left-one  tabs__left">
+								<img class="box tabs__left-one__box-one" src="images/contents/tab1.svg">
+								<div class="tabs__left-text">Новая почта</div>
+							</div>
+							<div class="tabs__left-two  tabs__left">
+								<img class="box tabs__left-one__box-two" src="images/contents/tab2.svg">
+								<div class="tabs__left-text">Укрпочта</div>
+							</div>
+							<div class="tabs__left-three tabs__left">
+								<img class="box tabs__left-one__box-three" src="images/contents/tab3.svg">
+								<div class="tabs__left-text">Самовывоз</div>
+							</div>
+						</div>
+						<div class="delivery__inner-tabs__left-title">- Доставка</div>
+					</div>
+				</div>
+			</div>
+			<div class="left-line"></div>
+		</div>
+
+		<div class="delivery__right-wrapper">
+			<div class="container container__delivery__right">
+				<div class="delivery__inner delivery-right__inner">
+					<div class="delivery__inner-tabs__right">
+						<div class="delivery__inner-tabs__right-title">Оплата -</div>
+						<div class="delivery__inner-right-wrapper">
+							<div class="tabs__right-one  tabs__right">
+								<img class="box box__right tabs__right-one__box-one " src="images/contents/coins.svg">
+								<div class="tabs__right-text">Наличными</div>
+							</div>
+							<div class="tabs__right-two  tabs__right">
+								<img class="box box__right tabs__right-one__box-two " src="images/contents/cards.svg">
+								<div class="tabs__right-text">Приват24</div>
+							</div>
+							<div class="tabs__right-three tabs__right">
+								<img class="box box__right tabs__right-one__box-three " src="images/contents/bils.svg">
+								<div class="tabs__right-text">Наложенный платёж</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-line"></div>
+		</div>
+	</section>
+
+	<section class="contancts" id="contancts">
+		<div class="container">
+			<div class="contancts__inner">
+				<div class="contancts__inner-title">Контакты</div>
+				<div class="contancts__inner-wrapper">
+					<img class="greenquad" src="images/contents/greenquad1.svg">
+					<img class="oil__picture" src="images/contents/oil__picture.svg">
+					
+					<div class="contancts__inner-wrapper__contact-us">
+						<div class="contancts__inner-wrapper__contact-us__wrapper">
+							<div class="link-views"><a class="tel-number" href="tel:+38 (066) 11-43-558">+38 (066) 11-43-558</a></div>
+							<div class="link-views"><a class="facebook-link soc__link" href="https://www.facebook.com/r.olio8/">https://www.facebook.com/r.olio8/</a></div>
+							<div class="link-views"><a class="instagram-link soc__link" href="https://www.instagram.com/r.olio_/">https://www.instagram.com/r.olio_/</a></div>
+							<div class="link-views"><a class="telegram-link" href="https://t.me/r_olio">https://t.me/r_olio</a></div>
+							<div class="link-views"><a class="viber-link" href="tel:+38 (066) 11-43-558">+38 (066) 11-43-558</a></div>
+							<div class="button__send">
+								<a class="send-link" href="https://t.me/r_olio">Написать нам</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<img class="footer__logo" src="images/contents/icon/logo/footer__logo.svg">
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="oils__link"><a href="#oils">Масло</a></li>
+						<li class="about__link"><a href="#about">О нас</a></li>
+						<li class="coments__link"><a href="#coments">Отзывы</a></li>
+						<li class="delivery__link"><a href="#delivery">Оплата и доставка</a></li>
+						<li class="contancts__link"><a href="#contancts">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts-logo">
+					<a class="footer__icon-link" href="https://www.facebook.com/r.olio8/"><img src="images/contents/icon/logo/facebook.svg"></a>
+					<a class="footer__icon-link" href="https://www.instagram.com/r.olio_/"><img src="images/contents/icon/logo/instagram.svg"></a>
+					<a class="footer__icon-link" href="https://t.me/r_olio"><img src="images/contents/icon/logo/telegram.svg"></a>
+					<a class="footer__icon-link" href="tel:+38 (066) 11-43-558"><img src="images/contents/icon/logo/viber.svg"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<div class="basket" id="basket">
+
+		<div class="basket__body">
+			 
+			<div class="basket__content" >
+				<div class="basket__content-title">
+					<div class="basket-title">Корзина</div>
+					<a href="#close" class="basket__close"><img src="images/contents/basket/close__icon.svg"></a>
+				</div>
+				
+
+				<div class="basket__content">
+
+					<div class="basket__content-items" id='basket__items'>
+						
+						
+						
+					</div>
+				</div>
+
+				<div class="basket__content-nav">
+					
+					<div class="basket__content-nav__fio">
+
+						<div class="basket__content-nav__fio-form">
+							<form class="form__fio form__nav-basket">
+								<div class="form__fio-title form__title">Имя получателя</div>
+								<input type="text" name="name" placeholder="Фамилия Имя Отчество">
+							</form>
+
+							<form class="form__number form__nav-basket">
+								<div class="form__number-title form__title">Контактный номер телефона</div>
+								<input type="tel" name="tel" placeholder="+380">
+							</form>
+						</div>
+
+						<div class="basket__content-nav__fio-radioBtn">
+							<div class="basket__content-nav__fio-radioBtn__title">Выбор варианта оплаты : </div>
+							<div class="radiobtn">
+								<label class="radiobtn__label" for="pay__card">Оплата картой онлайн</label>
+								<input type="radio" name="contact" id="pay__card">
+							</div>
+							<div class="radiobtn">
+								<label class="radiobtn__label" for="pay__cash">Оплата при получении (наличными)</label>
+								<input type="radio" name="contact" id="pay__cash">
+							</div>
+						</div>
+					</div>
+					<div class="basket__content-nav__dilivery">
+
+						<div class="basket__content-nav__dilivery-form">
+
+							<form class="form__nav-basket form__nav-basket__dilivery">
+								<div class="form__title form__title__newpochta">Новая почта:</div>
+								<input type="text" name="city" placeholder="Город">
+							</form>
+
+							<form class="form__nav-basket">
+								<input type="text" name="part__dilivery" placeholder="Отделение №">
+							</form>
+
+							<form class="form__nav-basket form__nav-basket__comments">
+								<input type="text" name="part__dilivery" placeholder="Ваш комментарий к заказу">
+							</form>
+
+
+						</div>
+
+						<button class="complite-offer" id="complite-offer">ОТПРАВИТЬ ЗАКАЗ</button>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<script src="js/itemCount.js"></script>
+		<script src="js/basket.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/libs.min.js"></script>
+		<script src="js/main.js"></script>
+		
+
+	</body>
+</html>
+
+
